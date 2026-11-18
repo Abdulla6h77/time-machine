@@ -1,0 +1,82 @@
+[
+  {
+    "name": "GitHub Changelog",
+    "url": "https://github.blog/changelog/"
+  },
+  {
+    "name": "Cloudflare Changelog",
+    "url": "https://developers.cloudflare.com/changelog/"
+  },
+  {
+    "name": "Cloudflare Status",
+    "url": "https://www.cloudflarestatus.com/"
+  },
+  {
+    "name": "GitHub Status",
+    "url": "https://www.githubstatus.com/"
+  },
+  {
+    "name": "Vercel Status",
+    "url": "https://www.vercel-status.com/"
+  },
+  {
+    "name": "AWS Health",
+    "url": "https://health.aws.amazon.com/health/status"
+  },
+  {
+    "name": "Google Cloud Status",
+    "url": "https://status.cloud.google.com/"
+  },
+  {
+    "name": "Microsoft Azure Status",
+    "url": "https://azure.status.microsoft/en-us/status"
+  },
+  {
+    "name": "Kubernetes Blog",
+    "url": "https://kubernetes.io/blog/"
+  },
+  {
+    "name": "Node.js Releases",
+    "url": "https://nodejs.org/en/blog/release"
+  },
+  {
+    "name": "Python Release Index",
+    "url": "https://www.python.org/downloads/"
+  },
+  {
+    "name": "Chrome Releases",
+    "url": "https://chromereleases.googleblog.com/"
+  },
+  {
+    "name": "Mozilla Firefox Release Notes",
+    "url": "https://www.mozilla.org/en-US/firefox/releases/"
+  },
+  {
+    "name": "Playwright Release Notes",
+    "url": "https://playwright.dev/docs/release-notes"
+  },
+  {
+    "name": "GitLab Releases",
+    "url": "https://about.gitlab.com/releases/categories/releases/"
+  },
+  {
+    "name": "Vercel Changelog",
+    "url": "https://vercel.com/changelog"
+  },
+  {
+    "name": "AWS What's New",
+    "url": "https://aws.amazon.com/new/"
+  },
+  {
+    "name": "Google Security Blog",
+    "url": "https://security.googleblog.com/"
+  },
+  {
+    "name": "OpenAI Status",
+    "url": "https://status.openai.com/"
+  },
+  {
+    "name": "GitLab Status",
+    "url": "https://status.gitlab.com/"
+  }
+]

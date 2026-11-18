@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Time Machine · Page History</title>
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/timeline.js"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <span class="eyebrow">Live web archive · TinyFish Monitor</span>
+      <h1>Time Machine</h1>
+      <p>See how a page changed, and what it looked like when it was captured.</p>
+      <p id="status" role="status">Loading monitor status…</p>
+    </header>
+    <section class="panel" aria-labelledby="collector-heading">
+      <h2 id="collector-heading">Monitoring status</h2>
+      <p id="collector" role="status">Loading collector status…</p>
+      <p id="collector-times"></p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th scope="col">Target</th><th scope="col">Last check</th><th scope="col">Next local check</th><th scope="col">Checks</th><th scope="col">Changes</th><th scope="col">Failures</th></tr></thead>
+          <tbody id="collector-pages"></tbody>
+        </table>
+      </div>
+      <details><summary>Recent recovery and failures</summary><ul id="collector-events"></ul></details>
+    </section>
+    <section class="panel">
+      <h2>Page history</h2>
+      <label for="page">Monitored page</label>
+      <select id="page"><option value="">Choose a page</option></select>
+      <p id="source"></p>
+      <p id="timeline-status" role="status"></p>
+      <ol id="timeline"></ol>
+    </section>
+    <section class="panel">
+      <h2>Look up an observation</h2>
+      <p>Dates use the end of the selected day in UTC.</p>
+      <form id="as-of">
+        <label>Date <input type="date" name="at" required></label>
+        <button>Find version</button>
+      </form>
+      <h2>Compare dates</h2>
+      <form id="diff">
+        <label>From <input type="date" name="from" required></label>
+        <label>To <input type="date" name="to" required></label>
+        <button>Compare</button>
+      </form>
+      <pre id="query-output" aria-live="polite"></pre>
+    </section>
+  </main>
+</body>
+</html>
